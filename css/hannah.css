@@ -1,0 +1,20 @@
+html {
+  background-color: #00bcf1;
+  background-image: linear-gradient(to bottom right, #180cac, #00bcf1);
+}
+
+.wallpaper {
+  background-image: unset;
+}
+
+.job {
+  color: #fcda52;
+}
+
+.hr {
+  background-color: #ff2b0f;
+}
+
+.button {
+  color: #303884;
+}
