@@ -1,72 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hannah Chan – Software Engineer</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap"
+    />
+    <link rel="stylesheet" href="css/minireset.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/hannah.css" />
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="robots" content="noindex" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hannah Chan – Software Engineer</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" />
-  <link rel="stylesheet" href="css/minireset.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/animations.css" />
-  <link rel="stylesheet" href="css/hannah.css" />
-  <script defer type="text/javascript" src="js/main.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-</head>
+  <body>
+    <div id="wallpaper" class="wallpaper" data-image="images/chicago.jpg"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="images/Hannah-320x320.jpg"
+            srcset="images/Hannah-320x320.jpg 1x, images/Hannah-640x640.jpg 2x"
+            alt="Portrait of Hannah Chan"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">Hannah Chan</h1>
+        <p class="job">Software Engineer</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>I empower people by developing software and technology.</p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:hannah@hannahchan.dev">Contact me</a>
+        </div>
+        <ul class="social">
+          <li>
+            <a
+              href="https://github.com/hannahchan"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/hannahchandev/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/hannahchandev"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
 
-<body>
-  <div id="wallpaper" class="wallpaper" data-image="images/chicago.jpg"></div>
-  <div class="content">
-    <aside class="side">
-      <figure id="picture" class="picture">
-        <div class="picture-shadow"></div>
-        <img id="pictureImage" class="picture-image" src="images/Hannah-320x320.jpg"
-          srcset="images/Hannah-320x320.jpg 1x, images/Hannah-640x640.jpg 2x" alt="Portrait of Hannah Chan" width="320"
-          height="320" />
-      </figure>
-    </aside>
-    <main class="about">
-      <h1 class="name">Hannah Chan</h1>
-      <p class="job">Software Engineer</p>
-      <hr class="hr" />
-      <div class="description">
-        <p>I empower people by developing software and technology.</p>
-      </div>
-      <div class="contact">
-        <a class="button" href="mailto:hannah@hannahchan.dev">Contact me</a>
-      </div>
-      <ul class="social">
-        <li>
-          <a href="https://github.com/hannahchan" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/hannahchandev/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/hannahchandev" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-      </ul>
-    </main>
-  </div>
-  <noscript>
-    <style type="text/css">
-      .wallpaper {
-        animation-name: zoomOut;
-      }
-
-      .picture {
-        animation-name: dropIn;
-      }
-    </style>
-  </noscript>
-</body>
-
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
+  </body>
 </html>

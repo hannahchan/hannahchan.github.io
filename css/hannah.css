@@ -1,5 +1,5 @@
 html {
-  background-color: #00bcf1;
+  background-color: #0C64CF;
   background-image: linear-gradient(to bottom right, #180cac, #00bcf1);
 }
 
@@ -17,4 +17,10 @@ html {
 
 .button {
   color: #303884;
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    justify-content: center;
+  }
 }
