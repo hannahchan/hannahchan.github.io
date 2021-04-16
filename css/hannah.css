@@ -1,3 +1,5 @@
+/* Override main.css */
+
 html {
   background-color: #0C64CF;
   background-image: linear-gradient(to bottom right, #180cac, #00bcf1);
@@ -23,4 +25,16 @@ html {
   .content {
     justify-content: center;
   }
+}
+
+/* Override animations.css */
+
+.wallpaper {
+  animation-name: zoomOut;
+}
+.picture-shadow {
+  animation-name: picShadow;
+}
+.picture-image {
+  animation-name: picImage;
 }
