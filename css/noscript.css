@@ -1,0 +1,11 @@
+@import url(https://use.fontawesome.com/releases/v5.15.3/css/all.css);
+
+.wallpaper {
+  animation-name: zoomOut;
+}
+.picture-shadow {
+  animation-name: picShadow;
+}
+.picture-image {
+  animation-name: picImage;
+}
