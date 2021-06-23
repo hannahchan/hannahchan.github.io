@@ -1,10 +1,10 @@
 html {
-  background-color: #0C64CF;
+  background-color: #0c64cf;
   background-image: linear-gradient(to bottom right, #180cac, #00bcf1);
 }
 
 .wallpaper {
-  background-image: unset;
+  background-image: url(../images/EvansLookout.png);
 }
 
 .job {
